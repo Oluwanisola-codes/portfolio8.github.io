@@ -1,0 +1,164 @@
+:root{
+    --black: rgb(8, 8, 8);
+    --white:rgb(255, 255, 255);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+*{
+font-family: arial;
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+   
+
+}
+html{
+    font-size: 52.5%;
+    overflow-x: hidden;
+}
+section{
+    min-height: 30vh;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 40px;
+}
+.top{
+    text-align: center;
+}
+.top img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+.btn{
+background-color: black;
+color: white;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    padding: 8px;
+   
+}
+.btn:hover{
+    color: black;
+    background-color: blue;
+}
+.buttons a{
+    font-size: 14px;
+}
+.testimonials{
+    display: flex;
+    gap: 14rem;
+align-items: center;
+justify-content: center;
+}
+.testheader h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+.test1, .test2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+
+}
+.nizzle img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.test1, h4{
+    font-size: 16px;
+    color: black;
+}
+
+.nizzleimg{
+  
+}
+.test1, .test2 p{
+    font-size: 16px;
+    color:white;
+}
+.box{
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 180px;
+    padding: 14px 14px;
+    border-radius: 10px;
+    word-spacing: 0.2vh;
+}
+
+
+.about1 h1{
+font-size: 40px;
+text-align: center;
+}
+.about2 p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.work1{
+    display: flex;
+  padding: 16px;
+    gap: 4rem;
+}
+.container{
+    width: 360px;
+    height: 340px;
+    background-color: blue;
+}
+.container-img{
+    text-align: center;
+    padding: 10px;
+}
+.container-img img{
+    width: 280px;
+    height: 260px;
+}
+.container-btn{
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    text-align: center;
+    margin-inline: 12rem;
+    padding: 10px;
+}
+.container-btn a{
+font-size: 14px;
+color: black;
+
+}
+.container-btn:hover{
+background-color:blue;
+color: black;
+}
+
+@media  screen and (max-width:600px) {
+    .work1{
+        display: flex;
+      padding: 16px;
+        gap: 4rem;
+        flex-direction: column;
+    }
+}
